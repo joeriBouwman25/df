@@ -1,0 +1,24 @@
+<header>
+  <h1>Guess the name of the album or artist</h1>
+  <h2>{{userName}}</h2>
+</header>
+<main class="index">
+  <h2 class="hide">Attempts Left: <span>6</span></h2>
+  <section>
+    <h2>Waiting for <span>1</span> more player to start the game</h2>
+    <div id="loader"></div>
+    <div>
+      <h2>{{newStr}}</h2>
+    </div>
+    <ul></ul>
+    <form class="hide" action="/" method="post">
+      <input type="text" name="answer" />
+      <button>Send</button>
+    </form>
+  </section>
+  <section>
+    <h2>Players:</h2>
+    <ul>
+    </ul>
+  </section>
+</main>
